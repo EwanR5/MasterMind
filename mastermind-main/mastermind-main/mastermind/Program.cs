@@ -3,7 +3,7 @@
 namespace mastermind
 {
     class Program
-    {
+    { // Cette fonction sert à démarrer le Mastermind
         static void Main(string[] args)
         {
             string combinaison;
@@ -17,7 +17,7 @@ namespace mastermind
             Afficher(proposition);
         }
 
-
+        // Cette fonction sert à définir la cominaison
         static void ChoixCombi(out int[] combi)
         {
             combi = new int[4];
@@ -28,7 +28,7 @@ namespace mastermind
                 combi[i] = valeur;
             }
         }
-
+        // Cette fonction sert à afficher un tableau
         static void Afficher(int[] combi)
         {
             for (int i = 0; i <= 3; i++)
