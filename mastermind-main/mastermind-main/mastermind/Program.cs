@@ -45,5 +45,7 @@ namespace mastermind
                 proposition[i] = combinaison[i];
             }
         }
+
+        static void NombrePionRouge(int[] proposition, int[] combinaison, out int nombre)
     }
 }
